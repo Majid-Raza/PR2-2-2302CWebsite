@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(154, 156, 251);
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    text-shadow: 6px 4px 7px black;
+    transition: all .5s;
+}
+p{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1:hover{
+     transform: scaleX(10deg);
+}
